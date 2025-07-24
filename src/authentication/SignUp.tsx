@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { registerUser } from '@/lib/appwriteAuth';
+import { registerUser } from 'src/lib/appwriteAuth';
 
 export default function SignUp() { //prioridad al importarse a otros, solo puede haber uno por archivo
   const [email, setEmail] = useState('');
